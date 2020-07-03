@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/reactRobo/static/css/main.0bc84294.chunk.css",
-    "main.js": "/reactRobo/static/js/main.8a6dbc95.chunk.js",
-    "main.js.map": "/reactRobo/static/js/main.8a6dbc95.chunk.js.map",
+    "main.css": "/reactRobo/static/css/main.9d5fd70b.chunk.css",
+    "main.js": "/reactRobo/static/js/main.7edd537e.chunk.js",
+    "main.js.map": "/reactRobo/static/js/main.7edd537e.chunk.js.map",
     "runtime-main.js": "/reactRobo/static/js/runtime-main.604cdf07.js",
     "runtime-main.js.map": "/reactRobo/static/js/runtime-main.604cdf07.js.map",
     "static/css/2.3c03f26f.chunk.css": "/reactRobo/static/css/2.3c03f26f.chunk.css",
     "static/js/2.6b4660bb.chunk.js": "/reactRobo/static/js/2.6b4660bb.chunk.js",
     "static/js/2.6b4660bb.chunk.js.map": "/reactRobo/static/js/2.6b4660bb.chunk.js.map",
     "index.html": "/reactRobo/index.html",
-    "precache-manifest.71cbece8c7b66dd83e0d51619967b40f.js": "/reactRobo/precache-manifest.71cbece8c7b66dd83e0d51619967b40f.js",
+    "precache-manifest.bac7549f6c74f09ee871347fadb34849.js": "/reactRobo/precache-manifest.bac7549f6c74f09ee871347fadb34849.js",
     "service-worker.js": "/reactRobo/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/reactRobo/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.0bc84294.chunk.css.map": "/reactRobo/static/css/main.0bc84294.chunk.css.map",
+    "static/css/main.9d5fd70b.chunk.css.map": "/reactRobo/static/css/main.9d5fd70b.chunk.css.map",
     "static/js/2.6b4660bb.chunk.js.LICENSE.txt": "/reactRobo/static/js/2.6b4660bb.chunk.js.LICENSE.txt",
     "static/media/App.css": "/reactRobo/static/media/SEGA.12a3db8b.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.604cdf07.js",
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.6b4660bb.chunk.js",
-    "static/css/main.0bc84294.chunk.css",
-    "static/js/main.8a6dbc95.chunk.js"
+    "static/css/main.9d5fd70b.chunk.css",
+    "static/js/main.7edd537e.chunk.js"
   ]
 }
