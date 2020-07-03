@@ -4,15 +4,21 @@ import Card from './Card'
 
 const CardList = ({robots}) => {
 
-    return (
-        <div>
-            {
-                robots.map(el => (
-                    <Card key={el.id} name={el.name} email={el.email} username = {el.username} ></Card>
-                    ))
-            }
-        </div>
-    )
+    if(robots.length){
+
+        return (
+            <div>
+                {
+                    robots.map(el => (
+                        <Card key={el.id} name={el.name} email={el.email} username = {el.username} ></Card>
+                        ))
+                }
+            </div>
+        )
+
+    }else{
+        return <h1>Loading</h1>
+    }
 }
 
 export default CardList
