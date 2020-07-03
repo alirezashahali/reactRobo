@@ -3,22 +3,16 @@ import CardList from './../components/CardList'
 import SearchBox from './../components/SearchBox'
 import Scroll from '../components/Scroll'
 import ErrorBoundry from './../components/ErrorBoundry'
-// import { searchRobots } from './../reducers'
-// import {robots} from './robots'
 import './App.css'
 import { connect } from 'react-redux'
 import { setSearchField, requestRobots } from './../actions'
+import Header from '../components/Header'
 
 class App extends React.Component{
 
     componentDidMount(){
         this.props.onRequestRobots()
     }
-
-    // onSearchChange = (e) => {
-    //     this.setState({ searchField: e.target.value })
-        
-    // }
 
     render(){
         const { searchField, onSearchChange, robots, isPending } = this.props
@@ -32,7 +26,7 @@ class App extends React.Component{
             return (
                 <div>
                     <div className='tc'>
-                        <h1 className='f1'>ROBOFRIENDS</h1>
+                        <Header />
                         <SearchBox onSearchChange= {onSearchChange}/>
                         <Scroll>
                             <ErrorBoundry>
