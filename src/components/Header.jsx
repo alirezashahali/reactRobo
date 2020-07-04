@@ -1,4 +1,5 @@
 import React from 'react'
+import CounterButton from './CounterButton'
 
 class Header extends React.Component{
     shouldComponentUpdate(nextProps, nextState){
@@ -7,7 +8,12 @@ class Header extends React.Component{
 
     render(){
         console.log('header')
-        return <h1 className='f2'>ROBOFRIENDS</h1>
+        return (
+            <div>
+                <h1 className='f2'>ROBOFRIENDS</h1>
+                <CounterButton />
+            </div>
+        )
     }
 }
 
